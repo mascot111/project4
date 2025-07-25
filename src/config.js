@@ -5,7 +5,7 @@ export const ACCOUNTS = {
   AirtelTigo: ["0557463351", "0599647601"],
 };
 
-export const LOAN_AMOUNT = 1500;
+export const LOAN_AMOUNT = 700;
 export const REFERENCE_NUMBER = "302952AJFYN";
 
 export const SAMPLE_MESSAGE = `The payment is successful, you will receive a similar message:
