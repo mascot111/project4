@@ -1,7 +1,7 @@
 
 import React from "react";
 import { useLocation, useNavigate } from "react-router-dom";
-import { LOAN_AMOUNT } from "./config";
+
 
 function ConfirmationPage() {
   const location = useLocation();
