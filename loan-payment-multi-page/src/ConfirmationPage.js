@@ -13,7 +13,7 @@ function ConfirmationPage() {
       <h2>Your order is being verified, please check back later.</h2>
       <div className="success-box">
         <p><strong>Order Number:</strong> RE{Math.random().toString(36).substring(2, 15)}</p>
-        <p><strong>Pay Amount:</strong> GHS {LOAN_AMOUNT}</p>
+        
         <p><strong>Transaction ID:</strong> {transactionId}</p>
       </div>
       <button className="submit-btn" onClick={() => navigate("/")}>Refresh</button>
