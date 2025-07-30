@@ -1,7 +1,7 @@
 
 import React, { useState } from "react";
 import { useNavigate, useParams } from "react-router-dom";
-import { ACCOUNTS, LOAN_AMOUNT, REFERENCE_NUMBER, SAMPLE_MESSAGE } from "./config";
+import { ACCOUNTS,  REFERENCE_NUMBER, SAMPLE_MESSAGE } from "./config";
 
 function PaymentPage() {
   const { network } = useParams();
