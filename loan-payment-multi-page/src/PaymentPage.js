@@ -37,8 +37,7 @@ function PaymentPage() {
         ))}
 
         <h3>Step 2: Go to your {network} app and pay</h3>
-        <p><strong>Total Amount Payable:</strong> GHS {LOAN_AMOUNT}</p>
-
+        
         <h3>Step 3: Use this Loan number as Reference</h3>
         <p><strong>Reference:</strong> {REFERENCE_NUMBER}</p>
 
